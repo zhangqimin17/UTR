@@ -2,7 +2,7 @@
 
 
 def run_gaussian_mf(train_matrix, train, test, k,
-                    method="svi", lr=0.05, n_steps=2000, mae_tol=0.03):
+                    lr=0.05, n_steps=2000, mae_tol=0.03):
     import warnings
     warnings.filterwarnings("ignore")
     import numpy as np
